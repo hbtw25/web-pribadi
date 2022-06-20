@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta content="#191b20" name="theme-color">
+  <meta content="#191b20" name="msapplication-navbutton-color">
+  <meta content="#191b20" name="apple-mobile-web-app-status-bar-style">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://rawcdn.githack.com/ilhamsk4/font-awesome-pro/4cac1a6/css/all.css">
+  <link rel="icon" href="assets/icon.jpg"
+  <title>Harsya brahmantyo w</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="/assets/js/jquery-2.2.1.min_2.js"></script>
+  <style type="text/css">
+    .preloader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+      background-color: #212529;
+    }
+    .preloader .loading {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      font: 14px arial;
+    }
+    </style>
+<script>
+  $(document).ready(function(){
+  $(".preloader").delay(1500).fadeOut();
+  })
+  </script>
+</head>
+<!-- Preloader -->
+<body>
+  <div class="preloader">
+    <div class="loading">
+     <img src="assets\preloader.gif">
+    </div>
+  </div>
+  <header>
+    <div class="fixed-top bg--dark text-light">
+      <div class="container py-3">
+        <h6 class="mb-0"><b>Welcome</b></h6>
+        <small>Selamat Datang Di Profile Saya</small>
+      </div>
+    </div>
+  </header>
+ 
+
+  <div class="areakontent">
+
+    <section class="content" id="header">
+      <div class="shadow pt-1 bg--dark text-light">
+        <div class="container pb-5">
+          <div class="d-flex">
+            <img class="rounded shadow" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMQfBTWtqsOWZteEOsuCyVK-sN1iiMoAhwKA&usqp=CAU" width="90" height="90" alt="">
+            <div class="mx-3 my-auto">
+              <h5>Harsya Brahmantyo w
+                <small>
+                  <i class="fad fa-check-circle text-secondary"></i>
+                </small>
+              </h5>
+              <small>I am <span class="headingTyped"></span></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container header-card">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col text-center">
+                <span class="text-secondary">Umur</span>
+                <p class="mb-0 pb-0">16</p>
+              </div>
+              <div class="col text-center">
+                <span class="text-secondary">Pendidikan</span>
+                <p class="mb-0 pb-0">SMK (X)</p>
+              </div>
+              <div class="col text-center">
+                <span class="text-secondary">Domisili</span>
+                <p class="mb-0 pb-0">Garut</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-3" id="aboutme">
+      <div class="container">
+        <div class="card shadow">
+          <div class="card-body">
+            <h6>Tentang saya</h6>
+            <p class="aboutme">Pelajar Smk Yang antusias terhadapat dunia IT khususnya Komputer, Jaringan dan Keamanan Siber.<br> Lazim dengan Bahasa Pemrograman Python, Memiliki Pengetahuan dan Keterampilan Dasar Bahasa Markup (HTML+CSS), Lazim dengan Sistem Operasi berbasis Linux Dan Windows, Fundamental Jaringan dan Penetrasi website, Memiliki Pengalaman Dalam Perangkat Keras Komputer maupun Gadget.<br> *Masi NOOB Mohon jangan dibully >_<<br>IN PROGRESS LEARNING BASIC PHP JAVASCRIPT AND GOOGLE CLOUD.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-3" id="blog">
+      <div class="container">
+        <h6 class="text-light">+ Sertifikat</h6>
+        <div class="row">
+          
+          <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+            <!-- Card -->
+            <div class="card mb-4 shadow-lg">
+              <a href="https://www.cyberacademy.id/belajar-online/classical-cryptography-for-beginner" target="_blank"> <img src="assets\sertifikat\serti (6).jpg" class="card-img p-1" alt=""></a>
+              <!-- Card body -->
+              <div class="card-body pt-1">
+                <a href="" class="text-light textrespon">
+                  <small class="aboutme">Sertifikat Classical Cryptography</small>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+            <!-- Card -->
+            <div class="card mb-4 shadow-lg">
+              <a href="https://haxorsecurity.or.id/" target="_blank"> <img src="assets\sertifikat\serti (3).jpg" class="card-img p-1" alt=""></a>
+              <!-- Card body -->
+              <div class="card-body pt-1">
+                <a href="" class="text-light textrespon">
+                  <small class="aboutme">Sertifikat Fundamental Penetration Testing</small>
+                </a>
+              </div>
+            </div>
+          </div>
+           <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+            <!-- Card -->
+            <div class="card mb-4 shadow-lg">
+              <a href="assets\sertifikat\serti (18).jpg" > <img src="assets\sertifikat\serti (18).jpg" class="card-img p-1" alt=""></a>
+              <!-- Card body -->
+              <div class="card-body pt-1">
+                <a href="https://www.udemy.com/certificate/UC-f9c907ff-50a9-4c5b-a36f-7e135e15cee1/" target="_blank" class="text-light textrespon">
+                  <small class="aboutme">Sertifikat C|AEHP</small>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+            <!-- Card -->
+            <div class="card mb-4 shadow-lg">
+          <div class="card-body pt-1">
+            <a href="sertifikat.html" class="text-light textrespon">
+              <button class="aboutme2" >DAN LAIN LAINNYA</button>
+            </a>
+          </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+     <section class="mt-3" id="blog">
+      <div class="container">
+        <h6 class="text-light">+ Badge</h6>
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+            <!-- Card -->
+           
+              <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="e9ff13b6-8571-44c1-ae42-9740d9b5e90e" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+             
+             
+            </div>
+             <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+            <!-- Card -->
+           
+             <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="72a4d050-8e57-4072-9f61-c403e31c479e" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+             
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+            <!-- Card -->
+           
+            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5edaca8d-33d2-42a5-a976-3a697b633453" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+             
+            </div>
+             <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+            <!-- Card -->
+           
+          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="f1ab6201-93e9-4f0f-abc4-159cdc14aa67" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+          
+            </div>
+              <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+            <!-- Card -->
+            <div class="card mb-4 shadow-lg">
+              <a href="https://www.cloudskillsboost.google/public_profiles/5fc84934-72a3-4670-967a-bd25a1393d7e" target="_blank"> <h5 class="card-img p-1" class="text-light textrespon" >LINK PUBLIC PROFILE <br>GOOGLE CLOUD BADGE</h5></a>
+              <!-- Card body -->
+              
+            </div>
+          </div>
+           <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+            <!-- Card -->
+            <div class="card mb-4 shadow-lg">
+              <a href="https://docs.microsoft.com/en-us/users/35523534/" target="_blank"> <h5 class="card-img p-1" class="text-light textrespon" >LINK PUBLIC PROFILE <br>Microsoft </h5></a>
+              <!-- Card body -->
+              
+            </div>
+          </div>
+          </div>
+          </section>
+        <br>
+    <section class="mt-3" id="blog">
+      <div class="container">
+        <h6 class="text-light">+ GAMES</h6>
+        <div class="row">
+          
+          <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+            <!-- Card -->
+            <div class="card mb-4 shadow-lg">
+              <a href="games1.html" target="_blank"> <img src="popcat1.png" class="card-img p-1" alt=""></a>
+              <!-- Card body -->
+              <div class="card-body pt-1">
+                <a href="" class="text-light textrespon">
+                  <small class="aboutme">DEA POP</small>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+        <br>
+     <section class="mt-3" id="blog">
+      <div class="container">
+        <h6 class="text-light">+ DOWNLOAD PUBLIKASI (WRITEUP DLL)</h6>
+        <div class="row">
+       <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+            <!-- Card -->
+            <div class="card mb-4 shadow-lg">
+              <a href="assets\Publikasi\TUGAS-AKHIR_CYBER-SECURITY_BISA-NETWORK.pdf" > <img src="assets\thumbnail\cybersecuritybisanetwork.png" class="card-img p-1" alt=""></a>
+              <!-- Card body -->
+              <div class="card-body pt-1">
+                <a href="assets\Publikasi\TUGAS-AKHIR_CYBER-SECURITY_BISA-NETWORK.pdf" class="text-light textrespon">
+                  <small class="aboutme">FULL MATERI CYBER SECURITY BISA NETWORK<br> (KLIK GAMBAR/TEXT UNTUK MENDOWNLOAD FILE)</small>
+                </a>
+              </div>
+            </div>
+          </div>
+           <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+            <!-- Card -->
+            <div class="card mb-4 shadow-lg">
+              <a href="assets\Publikasi\sc-900.pdf" > <img src="assets\thumbnail\microsoft-certified-fundamentals-badge.png" class="card-img p-1" alt=""></a>
+              <!-- Card body -->
+              <div class="card-body pt-1">
+                <a href="assets\Publikasi\sc-900.pdf" class="text-light textrespon">
+                  <small class="aboutme">FULL MATERI Microsoft Certified: Security, Compliance, and Identity Fundamentals<br> (KLIK GAMBAR/TEXT UNTUK MENDOWNLOAD FILE)</small>
+                </a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        </div>
+        </section>
+        <br>
+    <section id="contact">
+      <div class="container">
+        <h6 class="text-light">+ Kontak</h6>
+        <div class="card">
+          <div class="card-body">
+            <form action="kirim.php" method="post">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 mt-3">
+                  <input type="text" name="nama " class="form-control" placeholder="Full Name" required>
+                </div>
+                <div class="col-lg-6 col-md-6 mt-3">
+                  <input type="email" name="email" class="form-control" placeholder="Email" required>
+                </div>
+                <div class="col-12 mt-3">
+                  <textarea name="pesan" class="form-control" placeholder="Pesan" required></textarea>
+                </div>
+                <div class="d-flex justify-content-end mt-3">
+                  <button class="btn btn-secondary">Kirim</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+<!-- Bottom Navbar -->
+  <nav class="shadow navbar navbar-dark navbar-expand fixed-bottom bg--dark">
+    <ul class="navbar-nav nav-justified w-100">
+      <li class="nav-item">
+        <a href="https://www.linkedin.com/in/harsya-brahmantyo-w-250701217/" class="nav-link">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+          width="1.5em" height="1.5em"
+          viewBox="0 0 64 64"
+          style=" fill:#000000;"><linearGradient id="SUJNhpmDQDF27Y3OfwgfYa_44019_gr1" x1="19" x2="19" y1="24.858" y2="49.041" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#6dc7ff"></stop><stop offset="1" stop-color="#e6abff"></stop></linearGradient><path fill="url(#SUJNhpmDQDF27Y3OfwgfYa_44019_gr1)" fill-rule="evenodd" d="M22 48L22 26 16 26 16 48 22 48z" clip-rule="evenodd"></path><linearGradient id="SUJNhpmDQDF27Y3OfwgfYb_44019_gr2" x1="19.382" x2="19.382" y1="15.423" y2="23.341" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#6dc7ff"></stop><stop offset="1" stop-color="#e6abff"></stop></linearGradient><path fill="url(#SUJNhpmDQDF27Y3OfwgfYb_44019_gr2)" fill-rule="evenodd" d="M19.358,23c2.512,0,4.076-1.474,4.076-3.554 c-0.047-2.126-1.564-3.649-4.028-3.649c-2.465,0-4.076,1.475-4.076,3.601c0,2.08,1.563,3.602,3.981,3.602H19.358L19.358,23z" clip-rule="evenodd"></path><linearGradient id="SUJNhpmDQDF27Y3OfwgfYc_44019_gr3" x1="37.386" x2="37.386" y1="14.125" y2="49.525" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#6dc7ff"></stop><stop offset="1" stop-color="#e6abff"></stop></linearGradient><path fill="url(#SUJNhpmDQDF27Y3OfwgfYc_44019_gr3)" fill-rule="evenodd" d="M26.946,48H34V35.911c0-0.648,0.122-1.295,0.313-1.758 c0.52-1.295,1.877-2.635,3.867-2.635c2.607,0,3.821,1.988,3.821,4.901V48h6V35.588c0-6.657-3.085-9.498-7.826-9.498 c-3.886,0-5.124,1.91-6.072,3.91H34v-4h-7.054c0.095,2-0.175,22-0.175,22H26.946z" clip-rule="evenodd"></path><linearGradient id="SUJNhpmDQDF27Y3OfwgfYd_44019_gr4" x1="32" x2="32" y1="6.5" y2="57.5" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#1a6dff"></stop><stop offset="1" stop-color="#c822ff"></stop></linearGradient><path fill="url(#SUJNhpmDQDF27Y3OfwgfYd_44019_gr4)" d="M50,57H14c-3.859,0-7-3.141-7-7V14c0-3.859,3.141-7,7-7h36c3.859,0,7,3.141,7,7v36 C57,53.859,53.859,57,50,57z M14,9c-2.757,0-5,2.243-5,5v36c0,2.757,2.243,5,5,5h36c2.757,0,5-2.243,5-5V14c0-2.757-2.243-5-5-5H14z"></path></svg>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="https://www.instagram.com/hbtwwwwww/" class="nav-link">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="1.5em" height="1.5em"
+viewBox="0 0 100 100"
+style=" fill:#000000;"><path fill="#4e5fd8" d="M82,31v38c0,2.01-0.46,3.92-1.27,5.62c-1.12,2.33-2.92,4.29-5.15,5.58C73.65,81.35,71.4,82,69,82H31 c-1.47,0-2.89-0.25-4.21-0.7h-0.01c-2.43-0.83-4.52-2.35-6.05-4.34C19.02,74.76,18,72,18,69V31c0-0.59,0.04-1.17,0.12-1.74 c0.1-0.77,0.27-1.52,0.51-2.24C20.3,21.79,25.21,18,31,18h38c0.43,0,0.85,0.02,1.26,0.06h0.03c0.77,0.08,1.51,0.22,2.23,0.43 c4.7,1.32,8.33,5.21,9.24,10.07c0.09,0.45,0.15,0.91,0.19,1.38C81.99,30.29,82,30.64,82,31z"></path><path fill="#7550cc" d="M81.76,28.56c-0.91-4.86-4.54-8.75-9.24-10.07c-0.74-0.16-1.48-0.3-2.23-0.43h-0.03 c-0.13-0.023-0.262-0.038-0.391-0.06H46.1c-10.24,1.72-19.73,5.64-27.98,11.26C18.04,29.83,18,30.41,18,31v38 c0,3,1.02,5.76,2.73,7.96c1.53,1.99,3.62,3.51,6.05,4.34h0.01C28.11,81.75,29.53,82,31,82h38c2.4,0,4.65-0.65,6.58-1.8 c2.23-1.29,4.03-3.25,5.15-5.58C81.54,72.92,82,71.01,82,69V31c0-0.36-0.01-0.71-0.05-1.06C81.91,29.47,81.85,29.01,81.76,28.56z"></path><path fill="#9c32c8" d="M82,31v38c0,2.01-0.46,3.92-1.27,5.62c-1.12,2.33-2.92,4.29-5.15,5.58C73.65,81.35,71.4,82,69,82H31 c-1.47,0-2.89-0.25-4.21-0.7h-0.01c-2.43-0.83-4.52-2.35-6.05-4.34C19.02,74.76,18,72,18,69V38.03C28.95,29.25,42.86,24,58,24 c8.4,0,16.42,1.62,23.76,4.56c0.09,0.45,0.15,0.91,0.19,1.38C81.99,30.29,82,30.64,82,31z"></path><path fill="#d515a3" d="M82,36.29V69c0,2.01-0.46,3.92-1.27,5.62c-1.12,2.33-2.92,4.29-5.15,5.58C73.65,81.35,71.4,82,69,82 H31c-1.47,0-2.89-0.25-4.21-0.7h-0.01c-2.43-0.83-4.52-2.35-6.05-4.34C19.02,74.76,18,72,18,69V47.41C28.28,37.26,42.41,31,58,31 C66.57,31,74.71,32.89,82,36.29z"></path><path fill="#ec007a" d="M82,44.14V69c0,2.01-0.46,3.92-1.27,5.62c-1.12,2.33-2.92,4.29-5.15,5.58C73.65,81.35,71.4,82,69,82 H31c-1.47,0-2.89-0.25-4.21-0.7h-0.01c-2.43-0.83-4.52-2.35-6.05-4.34C19.02,74.76,18,72,18,69V58.01C27.12,45.86,41.64,38,58,38 C66.69,38,74.87,40.22,82,44.14z"></path><path fill="#ff492e" d="M82,66.07V69c0,3-1.02,5.76-2.73,7.96c-1.53,1.99-3.62,3.51-6.05,4.34h-0.01 C71.89,81.75,70.47,82,69,82H31c-2.4,0-4.65-0.65-6.58-1.8c-2.23-1.29-4.03-3.25-5.15-5.58C18.46,72.92,18,71.01,18,69V54.54 C25.38,48.57,34.77,45,45,45C60.74,45,74.5,53.45,82,66.07z"></path><path fill="#ff7a02" d="M79.27,76.96c-1.53,1.99-3.62,3.51-6.05,4.34h-0.01C71.89,81.75,70.47,82,69,82H31 c-2.4,0-4.65-0.65-6.58-1.8c-2.23-1.29-4.03-3.25-5.15-5.58C18.46,72.92,18,71.01,18,69v-4.81C24.6,56.72,34.25,52,45,52 C61.03,52,74.61,62.48,79.27,76.96z"></path><path fill="#ffa823" d="M73.21,81.3C71.89,81.75,70.47,82,69,82H31c-2.4,0-4.65-0.65-6.58-1.8 c-2.23-1.29-4.03-3.25-5.15-5.58C24.1,65.34,33.81,59,45,59C58.71,59,70.2,68.51,73.21,81.3z"></path><path fill="#ffca58" d="M66.17,82H31c-2.4,0-4.65-0.65-6.58-1.8C27.57,71.9,35.6,66,45,66C55.07,66,63.56,72.77,66.17,82z"></path><path fill="#ffdb73" d="M58.75,82h-27.5c2.32-5.3,7.6-9,13.75-9S56.43,76.7,58.75,82z"></path><path fill="#fff" d="M60,26.5H40c-7.444,0-13.5,6.056-13.5,13.5v20c0,7.444,6.056,13.5,13.5,13.5h20 c7.444,0,13.5-6.056,13.5-13.5V40C73.5,32.556,67.444,26.5,60,26.5z M69.5,60c0,5.238-4.262,9.5-9.5,9.5H40 c-5.238,0-9.5-4.262-9.5-9.5V40c0-5.238,4.262-9.5,9.5-9.5h20c5.238,0,9.5,4.262,9.5,9.5V60z M50,61.5 c-6.341,0-11.5-5.159-11.5-11.5S43.659,38.5,50,38.5S61.5,43.659,61.5,50S56.341,61.5,50,61.5z M50,42.5 c-4.136,0-7.5,3.365-7.5,7.5s3.364,7.5,7.5,7.5s7.5-3.365,7.5-7.5S54.136,42.5,50,42.5z M65.5,37.5c0,1.657-1.343,3-3,3 s-3-1.343-3-3s1.343-3,3-3S65.5,35.843,65.5,37.5z"></path><path fill="#1f212b" d="M60,74H40c-7.72,0-14-6.28-14-14V40c0-7.72,6.28-14,14-14h20c7.72,0,14,6.28,14,14v20	C74,67.72,67.72,74,60,74z M40,27c-7.168,0-13,5.832-13,13v20c0,7.168,5.832,13,13,13h20c7.168,0,13-5.832,13-13V40	c0-7.168-5.832-13-13-13H40z M60,70H40c-5.514,0-10-4.486-10-10V40c0-5.514,4.486-10,10-10h20c5.514,0,10,4.486,10,10v20	C70,65.514,65.514,70,60,70z M40,31c-4.963,0-9,4.037-9,9v20c0,4.963,4.037,9,9,9h20c4.963,0,9-4.037,9-9V40c0-4.963-4.037-9-9-9H40	z M50,62c-6.617,0-12-5.383-12-12s5.383-12,12-12s12,5.383,12,12S56.617,62,50,62z M50,39c-6.065,0-11,4.935-11,11s4.935,11,11,11	s11-4.935,11-11S56.065,39,50,39z M50,58c-4.411,0-8-3.589-8-8s3.589-8,8-8s8,3.589,8,8S54.411,58,50,58z M50,43	c-3.859,0-7,3.141-7,7s3.141,7,7,7s7-3.141,7-7S53.859,43,50,43z M62.5,41c-1.93,0-3.5-1.57-3.5-3.5s1.57-3.5,3.5-3.5	s3.5,1.57,3.5,3.5S64.43,41,62.5,41z M62.5,35c-1.379,0-2.5,1.121-2.5,2.5s1.121,2.5,2.5,2.5s2.5-1.121,2.5-2.5S63.879,35,62.5,35z M69,83H31c-7.72,0-14-6.28-14-14V31c0-7.72,6.28-14,14-14h38c7.72,0,14,6.28,14,14v38C83,76.72,76.72,83,69,83z M31,19	c-6.617,0-12,5.383-12,12v38c0,6.617,5.383,12,12,12h38c6.617,0,12-5.383,12-12V31c0-6.617-5.383-12-12-12H31z"></path></svg>
+        </a>
+        
+      </li>
+      
+      <li class="nav-item">
+        <a href="#" class="nav-link">
+          <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-house" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+          </svg>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="https://www.youtube.com/channel/UCm19fGqhLjwGll10qaGA2Kw" class="nav-link">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="1.5em" height="1.5em"
+viewBox="0 0 48 48"
+style=" fill:#000000;"><linearGradient id="PgB_UHa29h0TpFV_moJI9a_9a46bTk3awwI_gr1" x1="9.816" x2="41.246" y1="9.871" y2="41.301" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f44f5a"></stop><stop offset=".443" stop-color="#ee3d4a"></stop><stop offset="1" stop-color="#e52030"></stop></linearGradient><path fill="url(#PgB_UHa29h0TpFV_moJI9a_9a46bTk3awwI_gr1)" d="M45.012,34.56c-0.439,2.24-2.304,3.947-4.608,4.267C36.783,39.36,30.748,40,23.945,40	c-6.693,0-12.728-0.64-16.459-1.173c-2.304-0.32-4.17-2.027-4.608-4.267C2.439,32.107,2,28.48,2,24s0.439-8.107,0.878-10.56	c0.439-2.24,2.304-3.947,4.608-4.267C11.107,8.64,17.142,8,23.945,8s12.728,0.64,16.459,1.173c2.304,0.32,4.17,2.027,4.608,4.267	C45.451,15.893,46,19.52,46,24C45.89,28.48,45.451,32.107,45.012,34.56z"></path><path d="M32.352,22.44l-11.436-7.624c-0.577-0.385-1.314-0.421-1.925-0.093C18.38,15.05,18,15.683,18,16.376	v15.248c0,0.693,0.38,1.327,0.991,1.654c0.278,0.149,0.581,0.222,0.884,0.222c0.364,0,0.726-0.106,1.04-0.315l11.436-7.624	c0.523-0.349,0.835-0.932,0.835-1.56C33.187,23.372,32.874,22.789,32.352,22.44z" opacity=".05"></path><path d="M20.681,15.237l10.79,7.194c0.689,0.495,1.153,0.938,1.153,1.513c0,0.575-0.224,0.976-0.715,1.334	c-0.371,0.27-11.045,7.364-11.045,7.364c-0.901,0.604-2.364,0.476-2.364-1.499V16.744C18.5,14.739,20.084,14.839,20.681,15.237z" opacity=".07"></path><path fill="#fff" d="M19,31.568V16.433c0-0.743,0.828-1.187,1.447-0.774l11.352,7.568c0.553,0.368,0.553,1.18,0,1.549	l-11.352,7.568C19.828,32.755,19,32.312,19,31.568z"></path></svg>
+        </a>
+      </li>
+         <li class="nav-item">
+        <a href="https://github.com/hbtw25" class="nav-link">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="30" height="30"
+viewBox="0 0 30 30"
+style=" fill:#000000;">    <path d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"></path></svg>
+        </a>
+      </li>
+    
+      
+    
+     
+      
+    </ul>
+  </nav>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/jquery.js?v=1"></script>
+  <script src="assets/js/typed.min.js" defer></script>
+  <script type="text/javascript">
+    (function($) {
+      'use strict';
+      $(document).ready(function() {
+        $(function() {
+          $(".headingTyped").typed({
+            strings: ['IT Security Enthusiast', 'Penetration Tester', 'Web Developer.', 'Stock analyst.','RWVCPC™',],
+            typeSpeed: 1,
+            backDelay: 2500,
+            loop: true
+          });
+        });
+      })
+    }(jQuery))
+  </script>
+</body>
+
+</html>
