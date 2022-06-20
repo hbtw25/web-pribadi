@@ -1,0 +1,87 @@
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg--dark {
+    background-color: #191b20;
+}
+
+body {
+    background-color: #242629;
+}
+
+.card {
+    background-color: #2f3136;
+    color: #fff;
+}
+
+.headingTyped {
+    color: aqua;
+}
+
+.header-card {
+    margin-top: -1.5rem;
+}
+
+.aboutme {
+    font-size: 12px;
+}
+
+.content {
+    margin-top: 73px;
+}
+
+.textrespon {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-decoration: none;
+}
+
+.tag {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #242629;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.form-control {
+    background-color: #242629;
+    border-color: #2f3136;
+    color: #fff;
+}
+
+.form-control:hover {
+    background-color: #242629;
+    border-color: #2f3136;
+    color: #fff;
+}
+
+.form-control:focus {
+    box-shadow: unset;
+    background-color: #242629;
+    border-color: #2f3136;
+    color: #fff;
+}
+
+.areakontent {
+    margin-bottom: 100px;
+}
+
+
+
